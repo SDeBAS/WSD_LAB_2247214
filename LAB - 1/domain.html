@@ -12,10 +12,10 @@
         <div class="max-width">
             <div class="logo"><a href="#">Digi<span>Mart</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#contact" class="menu-btn">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
                 
             </ul>
             
@@ -45,10 +45,9 @@
                 <div class="column left">
                     <img src="./about.jpg" >
                 </div>
-                <div class="column right">
+                <div class="right">
                     <div class="text">I'm Debanjan and I'm the owner of <span class="type">DigiMart</span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum nemo dignissimos id commodi facere hic dicta nesciunt, expedita quas ea nobis reiciendis, iste, quia exercitationem perferendis blanditiis similique amet odio! Enim commodi dolorum amet eaque quod ea sapiente ipsa eum laborum alias doloribus similique, quis dolor necessitatibus molestias eveniet totam et ut eligendi cupiditate voluptatem provident quos inventore. Official.</p>
-                    <a href="">Download Brochure</a>
                 </div>
             </div>
         </div>
@@ -60,7 +59,7 @@
             <h2 class="title">
                 My Services
             </h2>
-            <div class="serv-content" data-aos="zoom-in-up">
+            <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <a href="https://learn.g2.com/what-is-graphic-design" target="_blank"><img src="./design.jpg.jpg" width="300px"></a>
@@ -93,32 +92,33 @@
             </h2>
             <table>
                 <tr>
-                    <th>No.</th>
-                    <th>Name</th>
-                    <th>Industry Demand</th>
-                    <th>People Working</th>
+                    <th rowspan="2">No.</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Industry Demand</th>
+                    
+                </tr>
+                <tr>
+                    <th>2021</th>
+                    <th>2022</th>
+                    
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Android Development</td>
-                    <td rowspan="2">Online</td>
-                    <td>More than 1000</td>
+                    <td>Digital Marketing</td>
+                    <td>8k</td>
+                    <td>10k</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Digital Marketing</td>
-                    <td>Less than 1000</td>
+                    <td>Software Engineering</td>
+                    <td>18k</td>
+                    <td>40k</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Software Engineering</td>
-                    <td>Offline</td>
-                    <td colspan="2">Around 1000</td>
-                </tr>
-                <tr>
-                    <td>4</td>
                     <td>Content Writing</td>
-                    <td>Online</td>
+                    <td>6k</td>
+                    <td>10k</td>
                 </tr>
                 
 
@@ -128,8 +128,8 @@
 
 
     <!--Contacts Section-->
-    <section class="contact" id="contact">
-        <div class="max-width" data-aos="zoom-out-up">
+    <section class="contact">
+        <div class="max-width">
             <h2 class="title">Contact us</h2>
             <div class="contact-content" >
                 <div class="column left">
@@ -137,21 +137,18 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum impedit quas itaque reiciendis laboriosam perspiciatis quo ullam aperiam cum fugit?</p>
                     <div class="icons">
                     <div class="row">
-                        <i class="fas fa-user"></i>
                         <div class="info">
                             <div class="head">Name</div>
                             <div class="sub-title">Debanjan Basu</div>
                         </div>
                     </div>
                     <div class="row">
-                        <i class="fas fa-map-marker-alt"></i>
                         <div class="info">
                             <div class="head">Address</div>
                             <div class="sub-title">Kormangala, Bengaluru </div>
                         </div>
                     </div>
                     <div class="row">
-                        <i class="fas fa-envelope"></i>
                         <div class="info">
                             <div class="head">Email</div>
                             <div class="sub-title">debanjan.basu@mca.christuniversity.in</div>
@@ -159,7 +156,7 @@
                     </div> 
                     </div>
                 </div>
-                <div class="column right">
+                <div class="right">
                     <div class="text">Message Us</div>
                     <form action="">
                         <div class="fields">
@@ -169,7 +166,7 @@
                             <div class="field email">
                                 <input type="email" placeholder="Email" required>
                             </div>
-                            </div>
+                        </div>
                             <div class="field ">
                                 <input type="text" placeholder="Enquiry" required>
                             </div>
